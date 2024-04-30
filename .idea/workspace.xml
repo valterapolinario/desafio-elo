@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2f623167-01eb-4854-a548-c2bbcb642bf8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poc.elo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/poc.elo/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,10 +18,10 @@
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2fpCxdX9cnmSb5wiL2J7ue2B1bS" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -32,7 +31,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/valter.junior/development/desafio-elo"
+    "last_opened_file_path": "D:/development/desafio-elo"
   }
 }]]></component>
   <component name="RunManager">
