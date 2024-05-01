@@ -5,12 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f623167-01eb-4854-a548-c2bbcb642bf8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/poc.elo/src/main/java/com/br/poc/elo/application/core/services/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/poc.elo/src/main/java/com/br/poc/elo/application/ports/incoming/ReceiveMessageOrderUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/poc.elo/src/main/java/com/br/poc/elo/application/ports/outgoing/SendMessageOrderPort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poc.elo/src/main/java/com/br/poc/elo/application/core/domain/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/poc.elo/src/main/java/com/br/poc/elo/application/core/domain/OrderDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poc.elo/src/main/java/com/br/poc/elo/application/ports/incoming/CreateOrderServicePort.java" beforeDir="false" afterPath="$PROJECT_DIR$/poc.elo/src/main/java/com/br/poc/elo/application/ports/outgoing/SaveOrderPort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poc.elo/src/main/java/com/br/poc/elo/application/ports/outgoing/ConsultOrderServicePort.java" beforeDir="false" afterPath="$PROJECT_DIR$/poc.elo/src/main/java/com/br/poc/elo/application/ports/outgoing/LoadOrderPort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poc.elo/target/classes/com/br/poc/elo/application/core/domain/Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/poc.elo/target/classes/com/br/poc/elo/application/core/domain/OrderStatusEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/poc.elo/target/classes/com/br/poc/elo/application/core/domain/OrderStatusEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poc.elo/target/classes/com/br/poc/elo/application/ports/incoming/CreateOrderServicePort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/poc.elo/target/classes/com/br/poc/elo/application/ports/outgoing/ConsultOrderServicePort.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -31,9 +50,18 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/development/desafio-elo"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/development/desafio-elo/poc.elo/src/main/java/com/br/poc/elo/adapters/out"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\development\desafio-elo\poc.elo\src\main\java\com\br\poc\elo\adapters\in" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.br.poc.elo.application.ports.incoming" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.br.poc.elo.Application" />
