@@ -4,19 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f623167-01eb-4854-a548-c2bbcb642bf8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poc.elo/src/main/java/com/br/poc/elo/application/core/services/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poc.elo/src/main/java/com/br/poc/elo/application/ports/incoming/ReceiveMessageOrderUseCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poc.elo/src/main/java/com/br/poc/elo/application/ports/outgoing/SendMessageOrderPort.java" afterDir="false" />
+    <list default="true" id="2f623167-01eb-4854-a548-c2bbcb642bf8" name="Changes" comment="feat: finalizado implementacao de primeira versao de archetype hexagonal">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poc.elo/src/main/java/com/br/poc/elo/application/core/domain/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/poc.elo/src/main/java/com/br/poc/elo/application/core/domain/OrderDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poc.elo/src/main/java/com/br/poc/elo/application/ports/incoming/CreateOrderServicePort.java" beforeDir="false" afterPath="$PROJECT_DIR$/poc.elo/src/main/java/com/br/poc/elo/application/ports/outgoing/SaveOrderPort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poc.elo/src/main/java/com/br/poc/elo/application/ports/outgoing/ConsultOrderServicePort.java" beforeDir="false" afterPath="$PROJECT_DIR$/poc.elo/src/main/java/com/br/poc/elo/application/ports/outgoing/LoadOrderPort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poc.elo/target/classes/com/br/poc/elo/application/core/domain/Order.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poc.elo/target/classes/com/br/poc/elo/application/core/domain/OrderStatusEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/poc.elo/target/classes/com/br/poc/elo/application/core/domain/OrderStatusEnum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poc.elo/target/classes/com/br/poc/elo/application/ports/incoming/CreateOrderServicePort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poc.elo/target/classes/com/br/poc/elo/application/ports/outgoing/ConsultOrderServicePort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/poc.elo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/poc.elo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poc.elo/src/main/java/com/br/poc/elo/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/poc.elo/src/main/java/com/br/poc/elo/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poc.elo/target/classes/com/br/poc/elo/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/poc.elo/target/classes/com/br/poc/elo/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poc.elo/target/classes/com/br/poc/elo/application/core/domain/OrderDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/poc.elo/target/classes/com/br/poc/elo/application/core/domain/OrderDB.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,6 +84,27 @@
       <option name="presentableId" value="Default" />
       <updated>1714488882608</updated>
     </task>
+    <task id="LOCAL-00001" summary="feat: finalizado implementacao de primeira versao de archetype hexagonal">
+      <option name="closed" value="true" />
+      <created>1714522714356</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714522714356</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: finalizado implementacao de primeira versao de archetype hexagonal">
+      <option name="closed" value="true" />
+      <created>1714522789661</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1714522789661</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: finalizado implementacao de primeira versao de archetype hexagonal" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: finalizado implementacao de primeira versao de archetype hexagonal" />
   </component>
 </project>
