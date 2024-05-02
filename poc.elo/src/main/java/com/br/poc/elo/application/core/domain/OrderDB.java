@@ -6,8 +6,13 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.annotation.LastModifiedDate;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+import java.io.Serializable;
 import java.math.BigDecimal;
+import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.time.ZoneId;
+import java.time.temporal.ChronoUnit;
+import java.util.Date;
 
 import static com.br.poc.elo.application.core.domain.OrderStatusEnum.AGUARDANDO_ENVIO;
 
@@ -15,9 +20,9 @@ import static com.br.poc.elo.application.core.domain.OrderStatusEnum.AGUARDANDO_
 @Getter
 @Setter
 @ToString
-public class OrderDB {
+public class OrderDB implements Serializable {
     @Id
-    private Long id;
+    private String id;
 
     private String description;
 
@@ -35,5 +40,7 @@ public class OrderDB {
 
     public OrderDB(){
         this.status = AGUARDANDO_ENVIO;
+        this.createdDate = LocalDateTime.now(ZoneId.of("America/Sao_Paulo"))
+                .truncatedTo(ChronoUnit.SECONDS);
     }
 }

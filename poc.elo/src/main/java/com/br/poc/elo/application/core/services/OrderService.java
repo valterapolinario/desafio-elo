@@ -2,7 +2,7 @@ package com.br.poc.elo.application.core.services;
 
 import com.br.poc.elo.adapters.in.api.OrderRequest;
 import com.br.poc.elo.adapters.in.api.OrderResponse;
-import com.br.poc.elo.adapters.in.mapper.OrderMapper;
+import com.br.poc.elo.application.core.domain.OrderDB;
 import com.br.poc.elo.application.ports.incoming.ConsultOrderUseCase;
 import com.br.poc.elo.application.ports.incoming.CreateOrderUseCase;
 import com.br.poc.elo.application.ports.outgoing.LoadOrderPort;
@@ -19,15 +19,27 @@ public class OrderService implements ConsultOrderUseCase, CreateOrderUseCase {
     @Autowired
     private SaveOrderPort savePort;
 
-    @Autowired
-    private OrderMapper mapper;
+//    @Autowired
+//    private OrderMapper mapper;
+
     @Override
-    public OrderResponse consultOrder(Long id) {
-        return mapper.toResponse(loadPort.load(id));
+    public OrderResponse consultOrder(String id) {
+        OrderDB result = loadPort.load(id);
+        return new OrderResponse(
+                result.getClientId(),
+                result.getStatus().name(),
+                result.getId()
+        );
     }
 
     @Override
-    public Long createOrder(OrderRequest request) {
-        return savePort.createOrder(mapper.toModel(request)).getId();
+    public String createOrder(OrderRequest request) {
+//        return savePort.createOrder(mapper.toModel(request));
+
+        OrderDB orderDB = new OrderDB();
+        orderDB.setAmount(request.ammount());
+        orderDB.setDescription(request.description());
+        orderDB.setClientId(request.clientId());
+        return savePort.createOrder(orderDB).getId();
     }
 }

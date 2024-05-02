@@ -14,11 +14,11 @@ public class OrderDbRepository implements LoadOrderPort, SaveOrderPort {
 
     @Override
     public OrderDB createOrder(OrderDB order) {
-        return null;
+        return repository.save(order);
     }
 
     @Override
-    public OrderDB load(Long orderId) {
-        return null;
+    public OrderDB load(String orderId) {
+        return repository.findById(orderId).get();
     }
 }

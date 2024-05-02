@@ -4,5 +4,5 @@ import com.br.poc.elo.adapters.in.api.OrderRequest;
 
 public interface CreateOrderUseCase {
 
-    Long createOrder(OrderRequest request);
+    String createOrder(OrderRequest request);
 }
