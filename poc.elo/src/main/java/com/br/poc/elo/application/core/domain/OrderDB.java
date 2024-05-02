@@ -15,6 +15,7 @@ import java.time.temporal.ChronoUnit;
 import java.util.Date;
 
 import static com.br.poc.elo.application.core.domain.OrderStatusEnum.AGUARDANDO_ENVIO;
+import static com.br.poc.elo.application.core.domain.OrderStatusEnum.ENVIADO_TRASNPORTADORA;
 
 @Document(collection = "pedidos")
 @Getter
@@ -43,4 +44,11 @@ public class OrderDB implements Serializable {
         this.createdDate = LocalDateTime.now(ZoneId.of("America/Sao_Paulo"))
                 .truncatedTo(ChronoUnit.SECONDS);
     }
+
+    public void updateToSent() {
+        this.status = ENVIADO_TRASNPORTADORA;
+        this.updatedDate = LocalDateTime.now(ZoneId.of("America/Sao_Paulo"))
+                .truncatedTo(ChronoUnit.SECONDS);
+    }
+
 }

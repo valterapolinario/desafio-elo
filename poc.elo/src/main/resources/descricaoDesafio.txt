@@ -8,7 +8,8 @@ Stack a ser utilizada no teste:
 Para a construção do Microsserviço deve ser utilizada a arquitetura Hexagonal.
 
 A partir do arquivo docker-compose fornecido crie um pequeno sistema de pedidos que irá funcionar de forma assíncrona. Utilize Spring Boot, Java 17 e Maven.
-Considere que o sistema terá duas partes, uma responsável pela criação e consulta de pedidos e outra que será responsável pelo processamento do pedido e envio dos dados para a transportadora que enviará o pedido ao cliente.
+Considere que o sistema terá duas partes, uma responsável pela criação e consulta de pedidos ,
+e outra que será responsável pelo processamento do pedido e envio dos dados para a transportadora que enviará o pedido ao cliente.
 
 O sistema deve conter endpoints REST para criação e também para consulta do STATUS de um pedido. Os possíveis status são AGUARDANDO_ENVIO e ENVIADO_TRANSPORTADORA
 
