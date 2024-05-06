@@ -9,9 +9,14 @@ spring:
         name: poc.elo
     data:
         mongodb:
-            authentication-database: admin
-            database: elo
-            uri: mongodb://localhost:27017/
+            host: ${MONGODB_HOST:localhost}
+            port: ${MONGODB_PORT:8082}
+            authentication-database: ${MONGODB_AUTH_DATABASE:admin}
+            database: ${MONGODB_DATABASE:elo}
+            username: ${MONGODB_USERNAME:root}
+            password: ${MONGODB_PASSWORD:root}
+            authentication-mechanism: ${MONGODB_AUTH_MECHANISM:DEFAULT}
+
     kafka:
         bootstrap-servers: ${BOOTSTRAP_SERVERS:localhost:9094}
         consumer:
