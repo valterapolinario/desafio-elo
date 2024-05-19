@@ -2,6 +2,7 @@ package com.br.poc.elo.application.core.services;
 
 import com.br.poc.elo.adapters.in.api.OrderRequest;
 import com.br.poc.elo.adapters.in.api.OrderResponse;
+import com.br.poc.elo.adapters.in.mapper.OrderMapper;
 import com.br.poc.elo.application.core.domain.OrderDB;
 import com.br.poc.elo.application.core.domain.OrderMessage;
 import com.br.poc.elo.application.ports.incoming.ConsultOrderUseCase;
@@ -36,16 +37,14 @@ public class OrderService implements ConsultOrderUseCase, CreateOrderUseCase, Pr
     @Value("${app.kafka.topics.order.transportadora}")
     private String transferTopic;
 
-//    @Autowired
-//    private OrderMapper mapper;
+    @Autowired
+    private OrderMapper mapper;
 
     @Override
     public OrderResponse consultOrder(String id) {
         OrderDB result = loadPort.load(id);
         return new OrderResponse(
-                result.getClientId(),
-                result.getStatus().name(),
-                result.getId()
+                result.getStatus().getDescription()
         );
     }
 

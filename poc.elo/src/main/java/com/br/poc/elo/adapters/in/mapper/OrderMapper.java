@@ -6,7 +6,7 @@ import com.br.poc.elo.application.core.domain.OrderDB;
 import org.mapstruct.InjectionStrategy;
 import org.mapstruct.Mapper;
 
-@Mapper(componentModel = "spring",injectionStrategy = InjectionStrategy.FIELD)
+@Mapper(componentModel = "spring")
 public interface OrderMapper {
 
     OrderDB toModel(OrderRequest request);

@@ -13,6 +13,8 @@ public enum OrderStatusEnum {
     private OrderStatusEnum(String description) {
         this.description = description;
     }
- 
-    
+
+    public String getDescription() {
+        return description;
+    }
 }

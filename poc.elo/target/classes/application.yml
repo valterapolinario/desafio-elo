@@ -2,15 +2,15 @@ app:
     kafka:
         topics:
             order:
-                transportadora: ${ORDER_TRANSFER_TOPIC:transfer-topic}
-                groupId: ${NOTIFY_GROUP_ID:id}
+                transportadora: ${ORDER_TRANSFER_TOPIC:order-topic}
+                groupId: ${NOTIFY_GROUP_ID:1}
 spring:
     application:
         name: poc.elo
     data:
         mongodb:
             host: ${MONGODB_HOST:localhost}
-            port: ${MONGODB_PORT:8082}
+            port: ${MONGODB_PORT:27017}
             authentication-database: ${MONGODB_AUTH_DATABASE:admin}
             database: ${MONGODB_DATABASE:elo}
             username: ${MONGODB_USERNAME:root}
@@ -18,7 +18,7 @@ spring:
             authentication-mechanism: ${MONGODB_AUTH_MECHANISM:DEFAULT}
 
     kafka:
-        bootstrap-servers: ${BOOTSTRAP_SERVERS:localhost:9094}
+        bootstrap-servers: ${BOOTSTRAP_SERVERS:localhost:29092}
         consumer:
             max-poll-records: 1
             auto-offset-reset: earliest
