@@ -9,7 +9,7 @@ services:
       ZOOKEEPER_CLIENT_PORT: 2181
       ZOOKEEPER_TICK_TIME: 2000
     ports:
-      - 2181:2181
+      - "2181:2181"
 
   kafka:
     image: confluentinc/cp-kafka:latest
@@ -18,7 +18,7 @@ services:
     depends_on:
       - schemaregistry
     ports:
-      - 29092:29092
+      - "29092:29092"
     environment:
       KAFKA_BROKER_ID: 1
       KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
@@ -44,7 +44,7 @@ services:
       SCHEMA_REGISTRY_LOG4J_ROOT_LOGLEVEL: 'INFO'
       SCHEMA_REGISTRY_AVRO_COMPATIBILITY_LEVEL: NONE
     ports:
-      - 8085:8085
+      - "8085:8085"
 
   mongo:
     image: mongo
@@ -53,7 +53,13 @@ services:
       MONGO_INITDB_ROOT_USERNAME: root
       MONGO_INITDB_ROOT_PASSWORD: root
     ports:
-      - 27017:27017
+      - "27017:27017"
+
+  redis:
+     image: redis
+     restart: always
+     ports:
+       - "6379:6379"
 
 networks:
   broker-kafka:

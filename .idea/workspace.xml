@@ -4,23 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f623167-01eb-4854-a548-c2bbcb642bf8" name="Changes" comment="config: ajustado configs de kafka/database">
+    <list default="true" id="2f623167-01eb-4854-a548-c2bbcb642bf8" name="Changes" comment="realizado ajustes de implementação e config de uso de MAPSTRUCT">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poc.elo/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/poc.elo/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/poc.elo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/poc.elo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poc.elo/src/main/java/com/br/poc/elo/adapters/in/api/OrderResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/poc.elo/src/main/java/com/br/poc/elo/adapters/in/api/OrderResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poc.elo/src/main/java/com/br/poc/elo/adapters/in/mapper/OrderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/poc.elo/src/main/java/com/br/poc/elo/adapters/in/mapper/OrderMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/poc.elo/src/main/java/com/br/poc/elo/application/core/domain/OrderDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/poc.elo/src/main/java/com/br/poc/elo/application/core/domain/OrderDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poc.elo/src/main/java/com/br/poc/elo/application/core/domain/OrderStatusEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/poc.elo/src/main/java/com/br/poc/elo/application/core/domain/OrderStatusEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poc.elo/src/main/java/com/br/poc/elo/application/core/services/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/poc.elo/src/main/java/com/br/poc/elo/application/core/services/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poc.elo/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/poc.elo/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poc.elo/target/classes/com/br/poc/elo/adapters/in/api/OrderResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/poc.elo/target/classes/com/br/poc/elo/adapters/in/api/OrderResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poc.elo/target/classes/com/br/poc/elo/adapters/in/mapper/OrderMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/poc.elo/target/classes/com/br/poc/elo/adapters/in/mapper/OrderMapper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/poc.elo/target/classes/com/br/poc/elo/application/core/domain/OrderDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/poc.elo/target/classes/com/br/poc/elo/application/core/domain/OrderDB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poc.elo/target/classes/com/br/poc/elo/application/core/domain/OrderStatusEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/poc.elo/target/classes/com/br/poc/elo/application/core/domain/OrderStatusEnum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poc.elo/target/classes/com/br/poc/elo/application/core/services/OrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/poc.elo/target/classes/com/br/poc/elo/application/core/services/OrderService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poc.elo/target/test-classes/com/br/poc/elo/ApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/poc.elo/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/poc.elo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/poc.elo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/poc.elo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/poc.elo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/poc.elo/target/poc.elo-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/poc.elo/target/poc.elo-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/poc.elo/target/surefire-reports/2024-05-02T10-20-25_417.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/poc.elo/target/surefire-reports/TEST-com.br.poc.elo.ApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/poc.elo/target/surefire-reports/com.br.poc.elo.ApplicationTests.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +54,11 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/development/desafio-elo/poc.elo&quot;
+    &quot;last_opened_file_path&quot;: &quot;D:/development/desafio-elo/poc.elo&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -126,7 +130,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715005452439</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="realizado ajustes de implementação e config de uso de MAPSTRUCT">
+      <option name="closed" value="true" />
+      <created>1716154201485</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1716154201485</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -134,7 +146,8 @@
     <MESSAGE value="build: realizado novo build para ajustar erros de estrutura" />
     <MESSAGE value="realizado ajustes de build" />
     <MESSAGE value="config: ajustado configs de kafka/database" />
-    <option name="LAST_COMMIT_MESSAGE" value="config: ajustado configs de kafka/database" />
+    <MESSAGE value="realizado ajustes de implementação e config de uso de MAPSTRUCT" />
+    <option name="LAST_COMMIT_MESSAGE" value="realizado ajustes de implementação e config de uso de MAPSTRUCT" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
