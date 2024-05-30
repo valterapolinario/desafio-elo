@@ -4,23 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f623167-01eb-4854-a548-c2bbcb642bf8" name="Changes" comment="realizado ajustes de implementação e config de uso de MAPSTRUCT">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="2f623167-01eb-4854-a548-c2bbcb642bf8" name="Changes" comment="adicionado config de REDIS no docker-compose">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poc.elo/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/poc.elo/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/poc.elo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/poc.elo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poc.elo/src/main/java/com/br/poc/elo/application/core/domain/OrderDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/poc.elo/src/main/java/com/br/poc/elo/application/core/domain/OrderDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poc.elo/target/classes/com/br/poc/elo/application/core/domain/OrderDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/poc.elo/target/classes/com/br/poc/elo/application/core/domain/OrderDB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poc.elo/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poc.elo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poc.elo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poc.elo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poc.elo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poc.elo/target/poc.elo-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poc.elo/target/poc.elo-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poc.elo/target/surefire-reports/2024-05-02T10-20-25_417.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poc.elo/target/surefire-reports/TEST-com.br.poc.elo.ApplicationTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poc.elo/target/surefire-reports/com.br.poc.elo.ApplicationTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/poc.elo/src/main/java/com/br/poc/elo/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/poc.elo/src/main/java/com/br/poc/elo/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poc.elo/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/poc.elo/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poc.elo/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/poc.elo/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poc.elo/target/generated-sources/annotations/com/br/poc/elo/adapters/in/mapper/OrderMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/poc.elo/target/generated-sources/annotations/com/br/poc/elo/adapters/in/mapper/OrderMapperImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -138,7 +128,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716154201485</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="adicionado config de REDIS no docker-compose">
+      <option name="closed" value="true" />
+      <created>1717097242312</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1717097242312</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -147,7 +145,8 @@
     <MESSAGE value="realizado ajustes de build" />
     <MESSAGE value="config: ajustado configs de kafka/database" />
     <MESSAGE value="realizado ajustes de implementação e config de uso de MAPSTRUCT" />
-    <option name="LAST_COMMIT_MESSAGE" value="realizado ajustes de implementação e config de uso de MAPSTRUCT" />
+    <MESSAGE value="adicionado config de REDIS no docker-compose" />
+    <option name="LAST_COMMIT_MESSAGE" value="adicionado config de REDIS no docker-compose" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
