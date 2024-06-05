@@ -19,6 +19,7 @@
         <maven.compiler.target>17</maven.compiler.target>
         <org.project.lombok.version.Version>1.18.16</org.project.lombok.version.Version>
         <lombok-bindigng.version>1.18.16</lombok-bindigng.version>
+        <springdoc.version>2.0.4</springdoc.version>
     </properties>
     <dependencies>
         <dependency>
@@ -77,11 +78,17 @@
             <version>2.17.0</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/org.springdoc/springdoc-openapi-ui -->
+<!--        &lt;!&ndash; https://mvnrepository.com/artifact/org.springdoc/springdoc-openapi-ui &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>org.springdoc</groupId>-->
+<!--            <artifactId>springdoc-openapi-ui</artifactId>-->
+<!--            <version>1.7.0</version>-->
+<!--        </dependency>-->
+
         <dependency>
             <groupId>org.springdoc</groupId>
-            <artifactId>springdoc-openapi-ui</artifactId>
-            <version>1.7.0</version>
+            <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+            <version>${springdoc.version}</version>
         </dependency>
 
         <dependency>
